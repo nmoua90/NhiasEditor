@@ -1,0 +1,36 @@
+<!doctype HTML>
+<html>
+	<head>
+		<link rel="stylesheet" href="editor.css">
+		
+		<title>Nhia's Editor</title>
+		
+	</head>
+
+	<body>
+		<button id="display_count">0</button>
+		 
+			<table>
+				<tr>
+					<td colspan="3">
+						<textarea id="inputTextToSave" cols="49" rows="25"></textarea>
+					</td>
+				</tr>
+				
+				<tr>
+					<td><button onclick="saveTextAsFile()">Save File</button></td>
+					<td><input type="file" id="fileToLoad"></td>
+					<td><button id="loadButton" onclick="loadFileAsText()">Load File</button></td>
+				</tr>
+			</table>
+		
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript" src="saveFile.js"></script>
+		<script type="text/javascript" src="loadFile.js"></script>
+		<script type="text/javascript" src="wordCount.js"></script>
+		<script type="text/javascript" src="enableTab.js"></script>
+		<script type="text/javascript" src="windowCloseCheck.js"></script>
+		<script type="text/javascript" src="validUploadCheck.js"></script>
+	</body>
+	
+</html>

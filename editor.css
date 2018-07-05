@@ -1,0 +1,27 @@
+table {
+	width:500px;
+	margin: 10px auto;
+}
+		
+textarea{
+	font-family: Courier New;
+	background-color: #e6f3ff;
+}
+		
+body{
+	background-image: url(Background.jpg);
+}
+		
+button, input{
+	background-color: #00001a;
+	border-radius: 20px;
+	color: white;
+	font-family: Courier New;
+	padding: 10px;
+	margin: 10px;
+}
+		
+#display_count{
+	position: absolute;
+	right: 15px;
+}
